@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get '/contact'
+  resources :pages
+  get 'portfolios/contact'
 
   resources :portfolios
   # The priority is based upon order of creation: first created -> highest priority.
